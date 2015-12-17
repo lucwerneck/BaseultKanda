@@ -1,14 +1,17 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.IO;
+using System.Drawing;
 using System.Linq;
-using LeagueSharp;
-using LeagueSharp.Common;
+using EloBuddy;
+using EloBuddy.SDK;
+using EloBuddy.SDK.Enumerations;
+using EloBuddy.SDK.Events;
+using EloBuddy.SDK.Menu.Values;
 using SharpDX;
 using SharpDX.Direct3D9;
-using Collision = LeagueSharp.Common.Collision;
 using Color = System.Drawing.Color;
-using Font = SharpDX.Direct3D9.Font;
+using Font = EloBuddy.SDK.Rendering.Text;
+using Sprite = EloBuddy.SDK.Rendering.Sprite;
 
 
 
