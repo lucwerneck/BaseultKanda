@@ -1,6 +1,9 @@
-﻿using System;
-using LeagueSharp;
-using LeagueSharp.Common;
+using System;
+using EloBuddy;
+using EloBuddy.SDK;
+using EloBuddy.SDK.Events;
+using EloBuddy.SDK.Menu;
+using EloBuddy.SDK.Menu.Values;
 
 namespace BaseUlt3
 {
